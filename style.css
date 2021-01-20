@@ -1,3 +1,7 @@
+@font-face{
+  src: url(gotham.otf);
+  font-family: Gotham;
+}
 a{
 text-decoration: none;
 color: #292929;
@@ -7,7 +11,7 @@ body{
 background-color: rgb(237, 237, 237);
 margin: 0px;
 padding: 0px;
-font-family: 'Lora';
+font-family: Gotham;
 }
 
 header{
@@ -130,4 +134,14 @@ card:focus .back{
   width: 16.6666666666666666666666666666666666666666666666666666666666666666666666666666666667%;
   height: 67.8vh;
   top: 12vh;
+}
+.skinterest{
+  display: inline-block;
+  position: relative;
+  width: 30vw;
+  height: 50vh;
+  left: calc(10/6);
+  right: calc(10/6);
+  overflow: scroll;
+  background-color: white;
 }
